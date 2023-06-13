@@ -1,0 +1,40 @@
+body {
+	background: #9370db;
+}
+
+#grade {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+}
+
+#grade button {
+	font-size: 60pt;
+}
+
+#reiniciar{
+	display: grid;
+	grid-template-columns: 100px;
+	grid-template-rows: 50px;
+}
+
+#reiniciar button {
+	font-size: 15pt
+}
+
+#jogo{
+	display:none;
+}
+
+#timer {
+	font-size: 60pt;
+}
+
+#gameover {
+	font-size: 90pt;
+	color: red;
+}
+#return button{
+    display: block;
+    
+}
